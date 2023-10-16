@@ -9,7 +9,7 @@ coches = []
 f = open('documento.csv')
 csv_f = csv.reader(f)
 
-# Iterar sobre el archivo
+# Iterar sobre el archivo que hemos abierto (documento.csv)
 for row in csv_f:
     marca, modelo, color, matricula, combustuble = row
     # print(f"Marca: {marca}, modelo: {modelo}, color: {color}, matrícula: {matricula}, combustible: {combustuble}")
