@@ -68,6 +68,9 @@ def contents_of_file(filename):
     for row in csv_f:
         name,color,type = row
         return_string += f"a {name} {color} is {type}\n"
+
+    f.close()
+    
     return return_string
 
 # Call the funtion
