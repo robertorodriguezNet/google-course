@@ -8,3 +8,9 @@ import re
 # la cadena tal y como está.
 result = re.search(r"aza","plaza")
 print(result)
+result = re.search(r"eme","plaza") # None
+print(result)
+
+print(re.search(r"^x","Xenon"))  # None
+print(re.search(r"^x", "Xenon", re.IGNORECASE))
+print(re.search(r"p.ng","penguin"))
