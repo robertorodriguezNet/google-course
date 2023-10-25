@@ -5,4 +5,7 @@ Repositorio para el curso de Google
 Using Python to interact with the Operaing System
 (upios)
 
-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
+De muestra 
+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
+
+
